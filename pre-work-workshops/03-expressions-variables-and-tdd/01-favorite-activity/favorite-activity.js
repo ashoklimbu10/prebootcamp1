@@ -1,2 +1,2 @@
 // YOUR CODE BELOW
-dfdhfdfS
+let favoriteActivity='coding'
