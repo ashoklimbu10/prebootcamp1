@@ -5,6 +5,5 @@ let happyNum = 1000;
 console.log(happyNum);
 happyNum -=500;
 happyNum /= 50;
-console.log(happyNum);
 happyNum *= (1/2);
 console.log(happyNum);
