@@ -6,5 +6,4 @@ function fullstackHQ() {
   let city = "New York City";
 
   return `Fullstack HQ is at ${planet}, ${country}, ${state}, ${city}`;
-}"
-"
+}
