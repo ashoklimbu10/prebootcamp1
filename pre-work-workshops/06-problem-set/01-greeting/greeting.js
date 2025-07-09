@@ -8,4 +8,4 @@ else{
 }
 }
 greeting();
-greeting('GIta');
+greeting('Gita');
