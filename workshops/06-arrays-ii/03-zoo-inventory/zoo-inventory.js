@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// YOUR CODE BELOW
+>>>>>>> 0f930c852ed04f82f47af2d1e4f0d72846691dd9
 function zooInventory(arr) {
   let result = [];
 
@@ -12,9 +16,12 @@ function zooInventory(arr) {
 
   return result;
 }
+<<<<<<< HEAD
 
 console.log(zooInventory([
   ['King Kong', ['gorilla', 42]],
   ['Nemo', ['fish', 5]],
   ['Punxsutawney Phil', ['groundhog', 11]]
 ]));
+=======
+>>>>>>> 0f930c852ed04f82f47af2d1e4f0d72846691dd9

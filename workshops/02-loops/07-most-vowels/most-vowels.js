@@ -20,4 +20,3 @@ for (let j=0; j<currentWord.length;j++){
  }
  return resultWord;
 }
-console.log(mostVowels('i am ashok limbu owl'));

@@ -11,4 +11,3 @@ function makeGrid(rows, columns) {
 
     return result;
 }
-console.log(makeGrid(3,4));

@@ -13,4 +13,8 @@ function arrayFlattener(arr){
             }
     }
     return result;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0f930c852ed04f82f47af2d1e4f0d72846691dd9
