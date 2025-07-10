@@ -47,7 +47,7 @@ let testFourMessage = 'test succeeding';
 function testFour(msg) {
   function innerFunc(msg) {
     msg = msg  
-    function doubleInner(msg) {
+    function doubleInner(sg) {
       testFourMessage = msg;
       return testFourMessage;
     }

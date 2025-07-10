@@ -12,7 +12,7 @@ describe('isTruthy', () => {
   it('returns true if given a truthy number', () => {
     let returnedValue = isTruthy(1);
     expect(returnedValue).toEqual(true);
-  });
+  });a
 
   it('returns true if given a truthy string', () => {
     let returnedValue = isTruthy('Honesty is the best policy');

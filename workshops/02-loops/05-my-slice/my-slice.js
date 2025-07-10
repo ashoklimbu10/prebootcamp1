@@ -13,4 +13,3 @@ function mySlice(originalString, startIdx, endIdx) {
 
     return result;
 }
-console.log(mySlice('ashok',1,3));
