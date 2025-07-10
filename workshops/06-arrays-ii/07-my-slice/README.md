@@ -17,7 +17,7 @@ mySlice([1, 2, 3], 1, 2) // => [2]
 If the endIdx is undefined, include all the indices starting at and including
 the startIdx through the end of the original array.
 
-```javascript
+```javascriptfunct
 mySlice([1, 2, 3], 1) // => [2, 3]
 ```
 
