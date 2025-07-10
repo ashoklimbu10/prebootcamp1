@@ -39,19 +39,21 @@ let classRoom = [
 
 // YOUR CODE BELOW
 function attendanceCheck(day) {
-  let result = [];
+  let presentStudents = [];
 
-  for (let student of classRoom) {
-    let name = Object.keys(student)[0];
-    let days = student[name];
+  for (let i = 0; i < classRoom.length; i++) {
+    let studentObj = classRoom[i];          
+    let studentName = Object.keys(studentObj)[0];  
+    let attendanceRecords = studentObj[studentName];   
 
-    for (let entry of days) {
-      if (entry[day]) {
-        result.push(name);
-        break;
+    for (let j = 0; j < attendanceRecords.length; j++) {
+      let record = attendanceRecords[j];          
+      if (record[day] === true) {
+        presentStudents.push(studentName);
+        break; 
       }
     }
   }
 
-  return result;
+  return presentStudents;
 }
