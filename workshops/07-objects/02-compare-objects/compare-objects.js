@@ -14,4 +14,3 @@ function compareObjects(obj1, obj2){
     }
  }
 }
-console.log(compareObjects({ name: 'zeke' }, { name: 'zeke', age: 12 }));

@@ -38,3 +38,14 @@ let animalNoises = [
 ];
 
 // YOUR CODE BELOW
+function petSounds(animal, country) {
+  debugger;
+  for (let i = 0; i < animalNoises.length; i++) {
+    let entry = animalNoises[i];
+    if (entry[animal][country]) {
+      let animalCap = animal.charAt(0).toUpperCase() + animal.slice(1) + 's';
+      return `${animalCap} in ${country} say ${entry[animal][country]}!`;
+    }
+  }
+  return `No data for ${animal}s in ${country}.`;
+}
