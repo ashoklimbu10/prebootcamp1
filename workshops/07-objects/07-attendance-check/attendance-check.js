@@ -51,4 +51,3 @@ function attendanceCheck(day) {
 
   return result;
 }
-console.timeLog(classCheck('Monday'));
