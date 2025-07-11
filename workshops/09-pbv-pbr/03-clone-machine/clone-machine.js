@@ -11,6 +11,5 @@ function cloneMachine(obj) {
   return cloneObj;
 }
 let dollyClone = cloneMachine(dolly);
-
 console.log(dollyClone) // {name: 'DollyClone', species: 'sheep', offspring: []}
 console.log(dolly) // {name: 'Dolly', species: 'sheep', offspring: ['DollyClone']}
