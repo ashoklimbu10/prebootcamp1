@@ -1,4 +1,4 @@
-describe('veryOdd', () => {
+gdescribe('veryOdd', () => {
 
   it('is a function', () => {
     expect(typeof veryOdd).toEqual('function');
