@@ -16,7 +16,7 @@ let ticTacToe = {
   },
 
   clear() {
-    for (let i = 0; i < this.board.length; i++) {
+    for (let i = 0; i< this.board.length; i++) {
       for (let j = 0; j < this.board[i].length; j++) {
         this.board[i][j] = null;
       }
